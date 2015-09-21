@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <com.aksiku.custom.RecyclingImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="fitXY"
+        android:contentDescription="" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp">
+        <com.aksiku.custom.RecyclingImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg_main"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <com.aksiku.custom.RecyclingImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:src="@drawable/ic_monyet"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="" />
+                <com.aksiku.custom.TypedTextView
+                    android:id="@+id/lbl_petunjuk"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".7"
+                    android:layout_margin="@dimen/PetunjukTextMargin"
+                    style="@style/TextBalloon" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="@dimen/ButtonWidth"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="OK"
+                android:visibility="invisible"
+                style="@style/Button" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="right">
+        <com.aksiku.custom.RecyclingImageButton
+            android:id="@+id/btn_lanjut"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_kanan"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:contentDescription=""/>
+    </RelativeLayout>
+</RelativeLayout>

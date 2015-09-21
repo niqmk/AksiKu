@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/lay_galeri_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@android:color/white">
+                <com.aksiku.custom.RecyclingImageView
+                    android:id="@+id/img_galeri_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/UkuranKarakter"
+                    android:src="@drawable/ic_kamera"
+                    android:background="@android:color/black"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/lbl_quest_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#f5b462"
+                style="@style/Button" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/lbl_answer_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+        <TextView
+            android:id="@+id/lbl_answer_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+        <TextView
+            android:id="@+id/lbl_answer_1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay_galeri_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@android:color/white">
+                <com.aksiku.custom.RecyclingImageView
+                    android:id="@+id/img_galeri_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/UkuranKarakter"
+                    android:src="@drawable/ic_kamera"
+                    android:background="@android:color/black"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/lbl_quest_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#f5b462"
+                style="@style/Button" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/lbl_answer_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+        <TextView
+            android:id="@+id/lbl_answer_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+        <TextView
+            android:id="@+id/lbl_answer_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lay_galeri_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@android:color/white">
+                <com.aksiku.custom.RecyclingImageView
+                    android:id="@+id/img_galeri_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/UkuranKarakter"
+                    android:src="@drawable/ic_kamera"
+                    android:background="@android:color/black"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/lbl_quest_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#f5b462"
+                style="@style/Button" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/lbl_answer_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+        <TextView
+            android:id="@+id/lbl_answer_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+        <TextView
+            android:id="@+id/lbl_answer_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+    </LinearLayout>
+</LinearLayout>

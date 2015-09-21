@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <com.aksiku.custom.RecyclingImageView
+        android:layout_width="@dimen/UkuranKarakter"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_monyet_petunjuk"
+        android:background="@android:color/transparent"
+        android:contentDescription="" />
+    <com.aksiku.custom.RecyclingImageView
+        android:id="@+id/img_narasi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitEnd"
+        android:contentDescription="" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="right">
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="@dimen/ButtonWidth"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            style="@style/Button" />
+    </RelativeLayout>
+</RelativeLayout>

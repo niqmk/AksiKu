@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Text">50sp</dimen>
+    <dimen name="TextSmall">30sp</dimen>
+    <dimen name="ButtonWidth">250dp</dimen>
+    <dimen name="PetunjukTextMargin">50dp</dimen>
+    <dimen name="TextJawabanHeight">300dp</dimen>
+    <dimen name="UkuranBadge">80dp</dimen>
+    <dimen name="UkuranKarakter">300dp</dimen>
+    <dimen name="UkuranKarakterKecil">250dp</dimen>
+</resources>

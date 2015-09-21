@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+    <include layout="@layout/score_kiri" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.aksiku.custom.RecyclingImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg_main"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="" />
+        <com.aksiku.custom.CustomViewPager
+            android:id="@+id/vwp_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true">
+            <com.aksiku.custom.RecyclingImageButton
+                android:id="@+id/btn_kiri"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_kiri"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:contentDescription=""/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+            <com.aksiku.custom.RecyclingImageButton
+                android:id="@+id/btn_kanan"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_kanan"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:contentDescription=""/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scv_score"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lbl_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            style="@style/Text" />
+        <TextView
+            android:id="@+id/lbl_total_poin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_box"
+            style="@style/Text" />
+        <com.aksiku.custom.RecyclingImageView
+            android:id="@+id/img_pp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/oval"
+            android:scaleType="center"
+            android:contentDescription="" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lbl_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Text" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/general_rounded_box"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.aksiku.custom.RecyclingImageView
+                        android:layout_width="@dimen/UkuranBadge"
+                        android:layout_height="@dimen/UkuranBadge"
+                        android:src="@drawable/ic_koin_bronze"
+                        android:contentDescription="" />
+                    <com.aksiku.custom.RecyclingImageView
+                        android:layout_width="@dimen/UkuranBadge"
+                        android:layout_height="@dimen/UkuranBadge"
+                        android:src="@drawable/ic_koin_silver"
+                        android:contentDescription="" />
+                    <com.aksiku.custom.RecyclingImageView
+                        android:layout_width="@dimen/UkuranBadge"
+                        android:layout_height="@dimen/UkuranBadge"
+                        android:src="@drawable/ic_koin_gold"
+                        android:contentDescription="" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/lbl_poin_bronze"
+                        android:layout_width="@dimen/UkuranBadge"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        style="@style/Text" />
+                    <TextView
+                        android:id="@+id/lbl_poin_silver"
+                        android:layout_width="@dimen/UkuranBadge"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        style="@style/Text" />
+                    <TextView
+                        android:id="@+id/lbl_poin_gold"
+                        android:layout_width="@dimen/UkuranBadge"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        style="@style/Text" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>

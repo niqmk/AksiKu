@@ -1,0 +1,36 @@
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Black.NoTitleBar"></style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/style</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="TextBox">
+        <item name="android:background">@color/General</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="TextJawaban">
+        <item name="android:background">@drawable/rounded_box</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="TextGeneral">
+        <item name="android:textColor">@color/Text</item>
+        <item name="android:textSize">@dimen/Text</item>
+    </style>
+    <style name="Text">
+        <item name="android:textColor">@color/Text</item>
+        <item name="android:textSize">@dimen/Text</item>
+        <item name="fontPath">fonts/TRASHHAND.TTF</item>
+    </style>
+    <style name="TextBalloon">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/TextBalloon</item>
+        <item name="android:textSize">@dimen/Text</item>
+    </style>
+    <style name="Button">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/Button</item>
+        <item name="android:textSize">@dimen/Text</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="fontPath">fonts/TRASHHAND.TTF</item>
+    </style>
+</resources>

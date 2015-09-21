@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AksiKu</string>
+    <string name="google_api_key">AIzaSyCoCDQ0klflzMlewrBaJM2M7Uu3zQ91mEM</string>
+    <string name="message_exit">Tekan back sekali lagi untuk keluar</string>
+    <string name="message_loading">Sedang memproses, silahkan ditunggu</string>
+    <string name="label_masuk_header">SEBELUM BERAKSI LOGIN TERLEBIH DAHULU</string>
+    <string name="label_daftar_header">DAFTARKAN DATA UNTUK BERAKSI</string>
+    <string name="label_misi">PILIHLAH TEMAN AKSIMU!</string>
+    <string name="label_quest_bonus">SELAMAT ANDA DAPAT BONUS %d POIN</string>
+    <string name="label_text_quest_trivia">Trivia</string>
+    <string name="label_text_quest_fun">Fun</string>
+    <string name="label_text_quest_bonus">Bonus</string>
+    <string name="error_no_internet">Request gagal, silahkan coba lagi</string>
+    <string name="error_nama">Nama kosong</string>
+    <string name="error_nis">NIS kosong</string>
+    <string name="error_email">Email kosong</string>
+    <string name="error_password">Password kosong</string>
+</resources>

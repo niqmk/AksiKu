@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+    <RelativeLayout
+        android:id="@+id/lay_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:background="@android:color/black">
+        <SurfaceView
+            android:id="@+id/vw_master"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <FrameLayout
+            android:id="@+id/lay_camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <View
+        android:id="@+id/vw_separator"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_alignRight="@+id/vw_separator"
+        android:orientation="vertical">
+        <com.aksiku.custom.RecyclingImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_monyet_pp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitStart"
+            android:contentDescription="" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btn_capture"
+            android:layout_width="@dimen/ButtonWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#f5b462"
+            android:textColor="#ffffff"
+            android:text="OK"
+            style="@style/Button" />
+    </RelativeLayout>
+</RelativeLayout>
